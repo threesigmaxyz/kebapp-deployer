@@ -1,0 +1,32 @@
+{
+  "name": "kebab-deployer",
+  "version": "1.0.0",
+  "description": "Deployment script for the KEBABS SPL token.",
+  "main": "src/mint.ts",
+  "scripts": {
+    "gen-wallet": "ts-node src/wallet.ts",
+    "mint": "ts-node src/mint.ts"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "blockchain",
+    "token",
+    "metaplex"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-candy-machine": "^6.0.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@solana/web3.js": "^1.91.7",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
